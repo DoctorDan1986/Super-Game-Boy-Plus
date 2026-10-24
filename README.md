@@ -6,7 +6,7 @@
 - Secondly, the length of time necessary to hold the buttons was flow-breaking; having to hold [SELECT], wait a second, and then hold [START] for another second was _annoying_.  Plus, the 'hold to fast-forward/rewind' thing is cute, but not really meaningful when you only have a couple of clockdivs one way or the other.
 - Thirdly, there is a bug or oversight in the original firmware, where employing the Clock Reset function (holding both [SELECT] and [START] for 5 seconds resets the clock to baseline) causes that state to be persistent - use it, and you won't be able to alter clock timing until you power cycle the SGB+.
 
-Neither of these are _critical issues_, but I think they can be much more user-friendly.
+Neither of these first two are _critical issues_, but I think they can be much more user-friendly.  The third is definitely an annoyance.
 
 In this fork, I've included the original project files, as well as **SGB_Clock_Control_Tap_ALTERED.ino**, which can be written to an ATTINY85 using an AVR-capable Arduino Uno (my recommendation is the r3 Uno; don't make the same mistake I did and grab the Uno Q - it's ARM-based and can't address ATTINY stuff as a programmer).
 
